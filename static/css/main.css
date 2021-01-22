@@ -1,0 +1,101 @@
+#main_pic {margin:0 auto; height:340px; background:url(../images/bpic.jpg) center top no-repeat}
+#main_pic div.container{position:relative;}
+#main_pic div.container span{display:block; position:absolute; top:30px; right:30px; font-size:30px; font-family:'Arial Black'; color:#fff;}
+.con_pre{margin-top:10px; height:482px; overflow:hidden;}
+.main_news{float:left; width:588px;}
+.main_newstit{width:588px; height:60px; background-color:#0062a5;}
+.main_newstit h2{padding-left:20px; line-height:60px; color:#fff; font-size:18px; font-family:Arial; font-weight:bold;}
+.shortcut {float:left; width:230px; height: 500px; background:#00416c; margin-right:20px; overflow:hidden;}
+.shortcut h2{margin:0 10px 0 10px; padding-left:10px; color:#7dc7fa; border-bottom:1px solid #21638e}
+.shortcut ul{margin-top:12px; margin-left: 20px; line-height:33px; font-size:14px;}
+.shortcut ul li{padding-left:14px; background:url(../images/ql_dot.png) 0 16px no-repeat}
+.shortcut ul li a{color:#fff;}
+.shortcut ul li a:hover,.shortcut ul li a:active{color:#67bffc}
+.main_news ul{margin-top:10px;}
+.main_news ul li{margin-top:5px; padding-bottom:10px; width:588px; border-bottom:1px dotted #cbcbcb}
+.main_news ul li a img{float:left; width:180px; height:100px;}
+.main_news ul li a div.txt{display:block; padding-left:15px; width:393px; height:100px; overflow:hidden;}
+.main_news ul li a:hover div.txt{background-color:#f5f5f5;}
+.main_news ul li a div.txt h3{font-size:16px; line-height:36px; font-weight:700; color:#666;}
+.main_news ul li a:hover div.txt h3{color:#333;}
+.main_news ul li a div.txt span{font-size:14px; line-height:18px; color:#737373}
+.main_news ul li a:hover div.txt span{color:#565656}
+.read_more{margin-top:10px; width:588px; height:50px; line-height:50px; text-align:center; background-color:#f2f2f2}
+a.read_more_link:hover{color:#333;}
+.book{float:right; width:382px; height:482px; overflow:hidden;}
+.book_tit{width:382px; height:60px; overflow:hidden;}
+.book_tit ul li{float:left; width:191px; height:60px; background-image:url(../images/book_type.png); background-repeat:no-repeat; cursor:pointer;}
+.book_tit ul li.book_flight_on{background-position:0 0}
+.book_tit ul li.book_flight_off{background-position:0 -60px}
+.book_tit ul li.book_hotel_off{background-position:-191px 0}
+.book_tit ul li.book_hotel_on{background-position:-191px -60px}
+.book_con{width:380px; height:421px; border-bottom:1px solid #3ba0e8; border-left:1px solid #3ba0e8; border-right:1px solid #3ba0e8;}
+
+H1{font-size:30px; font-weight:700; color:#454545; line-height:64px; text-align:center;}
+.left,.l{display:inline;float:left;}
+.right,.r{display:inline;float:right;}
+/* E板块CSS样式 */
+#channelNav{display:none;}
+#contentTG .pic img{width:230px;height:279px;}
+#contentTG .pic,.same .pic,.pubFun .pp li{position:relative;}
+#contentTG .label{position:absolute;top:5px;left:20px;_left:2px;margin:0 auto;color:#FFF;line-height:14px;text-align:left;padding:3px 5px 0 0}
+#contentTG .label em,.same .pic .label em,.pubFun .pp .label em{margin:0;position:relative;z-index:2;color:#FFF;font:18px/18px "Arial";margin-right:3px;font-weight:700; text-shadow: 2px 2px 2px #333;}
+#contentTG{width:1230px;margin:20px auto 20px;}
+#contentTG .left{width:230px;height:360px; margin-right:20px;}
+#contentTG .bord{width:230px;height:360px}
+#contentTG .left h2{height:20px;padding:8px 17px 0}
+#contentTG .left .pic {width:230px;height:279px}
+#contentTG .left .pic span{display:block;margin:9px auto 2px;line-height:20px}
+#contentTG .left .line{width:89%}
+#contentTG .left .tg_list {width:228px; height:79px; border:1px #cbcbcb solid;}
+#contentTG .left .tg_list ul{width:216px; margin:6px auto 0}
+#contentTG .left .tg_list li{padding-left:10px; width:216px; background:url(../images/tg_dot.png) no-repeat 2px 9px; font-size:12px; line-height:16px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+#contentTG .left .tg_list li a {color:#333;}
+#contentTG .left .tg_list li a:hover {color:#3389d8;}
+#contentTG .btns{position:relative;font-size:0;}
+#contentTG .btns a{position:absolute;width:52px;height:52px;top:-237px;left:0; background:url(../images/tg_arrow.png) no-repeat;}
+#contentTG .btns .up{background-position:0px 0px;left:-50px}
+#contentTG .btns .down{background-position:right 0px;left:auto;right:-50px}
+#contentTG .btns a:hover.up{background-position:0 -52px}
+#contentTG .btns a:hover.down{background-position:right -52px}
+#contentTG .cons{width:1230px;overflow:hidden;position:relative;height:360px}
+#contentTG .con{float:left;width:9999px;position:absolute;left:0;top:0;}
+
+#destinations ul{width:1250px;}
+#destinations ul li {float:left; padding-top:0px; padding-bottom:0px; margin-right:20px; margin-bottom:20px; width:230px; height:230px; position:relative; overflow:hidden; background-color:#7f7f7f}
+#destinations ul li.first {width:480px; height:230px;}
+#destinations ul li img{position:absolute;}
+#destinations ul li a span{display:block; position:absolute; bottom:0px; width:100%; height:47px; background:url(../images/mask.png) repeat-x}
+#destinations ul li a:hover span{height:230px; filter:alpha(opacity=50); -moz-opacity:0.5; opacity:0.5; background:#000;}
+#destinations ul li em{position:absolute; bottom:8px; margin-left:10px; width:100%; height:auto; font-size:18px; font-style:normal; line-height:21px; color:#fff; text-shadow: 2px 2px 2px #000;}
+#map{width:100%; height:689px; background:#3ba0e6}
+.attraction_map {position:relative; width:1230px; height:689px; background:url(../images/attraction_map.jpg) center 0 no-repeat;}
+.region a{position: absolute;  font-size: 14px; font-family: Arial; font-weight: 700; color: #fff; cursor:pointer;}
+.region a:hover{color:#87ceff}
+.region a#tongan{left: 558px; top: 273px;} 
+.region a#jimei{left: 483px; top: 427px;} 
+.region a#xiangan{left: 719px; top: 383px;} 
+.region a#haicang{left: 462px; top: 544px;} 
+.region a#huli{left: 599px; top: 544px;} 
+.region a#siming{left: 588px; top: 589px;} 
+.mapcon {display:none; position:absolute; left:125px;}
+.map_l {position:absolute; left:0; width:400px; color:#fff; padding-top:30px;}
+.map_l h2 {font-size:24px; line-height:48px; font-weight:700; color:#fff;}
+.map_l p {width:400px; font-size:12px; line-height:18px; font-weight:700; color:#fff;}
+.map_nav {margin-top:30px; width:223px; height:191px; background:#005c9b; overflow:hidden;}
+.map_nav h2 {padding-left:20px; color:#fff; font-size:18px; line-height:56px; font-weight:700; background:#002f50;}
+.map_nav h2 span{display:block; position:absolute; width:13px; height:7px; background:url(../images/attraction_map_ico.png) -19px -56px no-repeat;}
+.map_nav ul {margin:5px auto;}
+.map_nav ul li {padding-left:46px; heigth:35px; line-height:35px; background-image:url(../images/attraction_map_ico.png); background-repeat:no-repeat; cursor:pointer}
+.map_nav ul li.menu01 {background-position:0 -69px; border-bottom:1px dashed #004d89}
+.map_nav ul li.menu02 {background-position:0 -112px; border-bottom:1px dashed #004d89}
+.map_nav ul li.menu03 {background-position:0 -155px;}
+.map_nav ul li a {color:#6dc5ff}
+.map_nav ul li.hover a {color:#3aa2e7;}
+.map_nav ul li.cur{background-color:#004a7d}
+.map_nav ul li.cur a {color:#3aa2e7;}
+.map_r {position:absolute; right:0; width:273px; height:293px; background:#005c9b}
+.map_r p{margin:20px auto 10px; width:233px; height:230px; font-size:12px; line-height:18px; color:#fff; overflow:hidden;}
+.discover_more{float:right; padding-right:20px; text-align:right;}
+.discover_more a{font-size:13px; font-weight:700; color:#ffa201;}
+.discover_more a:hover{color:#ffb83c}

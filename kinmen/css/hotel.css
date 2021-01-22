@@ -1,0 +1,24 @@
+table {
+	margin:0 auto; width:900px; font-size:12px; background:#ccc
+}
+th {
+	padding:3px 3px 3px 3px; height:30px; background:#99d7ea; text-align:left; text-align:center;
+}
+td {
+	padding:3px 3px 3px 3px; height:30px; text-align:left; background:#FFF
+}
+.row1 {
+	background:#ffe487
+}
+.row2 {
+	background:#ef9c78
+}
+.row3 {
+	background:#bca6f3
+}
+.row4 {
+	background:#ecaad7
+}
+.row5 {
+	background:#94ec78
+}

@@ -1,0 +1,81 @@
+
+.main{
+	width: 1140px;
+	background: #fff;
+	margin: auto;
+	padding-top: 0px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+.main1{}
+.main1_left{float:left;width:510px;}
+.main_title{
+	height: 50px;
+	background-image: url(20160420_title.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+.main_title .title{
+	line-height: 35px;
+	font-size: 26px;
+	padding-left: 2px;
+}
+.main_title .more{font-family:'宋体';font-size:12px;line-height:21px;float:right;width:50px;height:21px;color:#fff;text-align:center;background:url(20160420_more.png) no-repeat;margin-top:8px;padding-left:10px;}
+.main1_left_m{}
+.main1_left_m1{margin-top:10px;}
+.main1_left_m1 .title{font-size:20px;line-height:34px;}
+.main1_left_m1 p a{color:#888888;line-height:24px;font-size:14px;}
+.main1_left_m1 p a span{color:#ff6600;}
+.main1_left_m1 p a:hover span{text-decoration:underline;}
+.main1_right{
+	float: left;
+	width: 550px;
+	height: 325px;
+	position: relative;
+	overflow: hidden;
+	margin-left: 60px;
+}
+.main1_right .ul{position:absolute;left:-430px;top:0px;}
+.main1_right .ul li{width:430px;height:270px;float:left;position:relative;}
+.main1_right .ul li img{width:430px;height:270px;}
+.main1_right .ul li span{position:absolute;width:420px;padding-left:10px;background:url(http://union.visitxm.com/css/20160420_hei.png);height:44px;line-height:44px;left:0px;bottom:0px;color:#fff;}
+.lun_div{position:absolute;right:15px;bottom:15px;}
+.lun_div li{float:left;width:14px;height:14px;cursor:pointer;font-size:12px;margin-left:3px;text-align:center;line-height:14px;color:#fff;background:#666666;}
+.lun_div li.hover{background:#72d10b;}
+.main2{margin-top:20px;}
+.main2_left{width:590px;float:left;}
+.main2_left_m1{margin-top:15px;}
+.main2_left_m1_l{float:left;width:375px;}
+.main2_left_m1_l a.title{font-size:20px;line-height:26px;display:block;margin-bottom:5px;}
+.main2_left_m1_l li{padding-left:12px;background:url(http://union.visitxm.com/css/20160420_li.png) no-repeat left center;}
+.main2_left_m1_l li a{font-size:15px;color:#1155aa;line-height:30px;}
+.main2_left_m1_l li a:hover{text-decoration:underline;}
+.main2_left_m1_img{float:left;width:190px;height:120px;margin-left:20px;float:left;position:relative;}
+.main2_left_m1_img img{width:190px;height:120px;}
+.main2_left_m1_img span{width:180px;padding-left:10px;line-height:30px;color:#fff;background:url(http://union.visitxm.com/css/20160420_hei.png);position:absolute;left:0px;bottom:0px;}
+.main2_right{float:left;width:350px;margin-left:20px;}
+.mart10{margin-top:10px;}
+.main3{margin-top:20px;}
+.main3_m{margin-top:15px;}
+.main3_m_left{float:left;width:590px;border:10px solid #515151;border-bottom:0px solid #515151; position:relative;}
+.main3_m_left1 img{height:330px;width:100%;display:block;}
+.main3_m_left1 .title{display:block;line-height:40px;color:#fff;padding-left:15px;background:#515151;width:585px;}
+.main3_m_left1 .bo{position:absolute;left:50%; top:50%;margin-left:-37px;margin-top:-37px;width:74px;height:74px;}
+.main3_m_right{float:left;width:350px;padding:9px 0px;background:#e5e5e5;}
+.main3_m_right1{padding:10px 15px;border-bottom:1px solid #c9c8c8;overflow:hidden;}
+.main3_m_right1_left{float:left;width:160px;height:100px;}
+.main3_m_right1_left img{width:160px;height:100px;display:block;}
+.main3_m_right1_p{float:left;width:140px;padding:10px;}
+.main3_m_right1_p a{font-size:14px;line-height:26px;}
+.main4{margin-top:20px;}
+.main4_m{margin-top:20px;}
+.main4_m_left1{width:400px;float:left;}
+.main4_m_left1 img{width:400px;height:250px;display:block;}
+.div_red{padding:2px 8px; color:#fff;background:#f2495c;float:left;margin-top:15px;}
+.main4_m_left2{float:left;width:230px;margin-left:15px;padding:0px 15px;border-left:1px solid #d5d5d5;border-right:1px solid #d5d5d5;}
+.div_blur{padding:2px 8px; color:#fff;background:#4f8bd5;float:left;}
+.main4_m_left2 a, .main4_m_left3 a.a{display:block;font-size:18px;line-height:27px;padding:14px 0px;border-bottom:1px solid #d5d5d5;margin-bottom:14px;}
+.main4_m_left3{width:268px;float:left;margin-left:15px;}
+.main4_m_left3 img{width:268px;height:106px;margin-bottom:10px;}
+.div_blur1{padding:2px 8px; color:#fff;background:#d5a95e;float:left;}

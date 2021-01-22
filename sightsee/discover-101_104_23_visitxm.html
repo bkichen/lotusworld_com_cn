@@ -1,0 +1,156 @@
+
+
+
+
+
+ 
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=1,width=device-width">
+<link rel="stylesheet" href="../static/css/main1.css" type="text/css">
+<link rel="stylesheet" href="../static/css/styles.css" type="text/css">
+<link rel="stylesheet" href="../static/css/custom.css" type="text/css">
+<link rel="stylesheet" href="../css/share.css" type="text/css"> 
+<link rel="stylesheet" href="../static/css/list1.css" type="text/css"> 
+<script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="../js/superfish.js"></script>
+<script type="text/javascript" src="../js/supersub.js"></script>
+<script type="text/javascript" src="../js/jquery.easing.js"></script>
+<script type="text/javascript" src="../js/gdl-scripts.js"></script>
+<script language="javascript" src="../dwr/interface/Jweather.js"> </script>
+<script language="javascript" src='../dwr/engine1.js'></script>
+<script language="javascript" src='../dwr/util.js'></script>
+
+<title>Сямынь туризма</title>
+<style type="text/css">
+.new_tag {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.new_tag a.tags {
+    float: left;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background: #25a7ff;
+    font-size: 18px;
+    color: #fff;
+}
+</style>
+</head>
+
+<body>
+﻿
+
+<div class="header container">
+<div class="tfun">
+  <div class="tfun_list">
+    <ul>
+      <li class="lag_eng"><a href="../index1.html"></a></li>
+      <li class="lag_jpn"><a href="../index2.html"></a></li>
+      <li class="lag_kor"><a href="../index3.html"></a></li>
+      <li class="lag_rus"><a href="../index4.html"></a></li>
+      <li class="weather"><iframe name="weather_inc" src="javascript:;" width="85" height="25" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></li>
+    </ul>
+  </div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="header-wrapper">
+	<div class="container">
+		<div class="navigation-wrapper sliding-bar">
+			<div class="gdl-current-menu"></div>
+			<div class="main-superfish-wrapper" id="main-superfish-wrapper">
+				<ul class="sf-menu">
+				<li><div class="hp"><h1><a href="../index4.html"><img src="http://rus.visitxm.com/sightsee/images/home.png" alt=""></a></h1></div></li>
+				<li><a href="discover-101_21.html">живописный<br>район</a></li>
+				<li><a href="discover-101_22.html">Кухня и<br>популярные закуски</a></li>
+				<li><a href="discover-101_23.html">Местный<br>колорит</a></li>
+				<li><a href="discover-101_24.html">Шопинг</a></li>
+				<li><a href="discover-101_25.html">Уютные<br>отели</a></li>
+				<li><a href="discover-101_26.html">Быт и<br>образ жизни</a></li>
+				<li><a href="../article/tips.html">Советы<br>туристам</a></li>
+				<li></li>
+				</ul>
+			<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+$(function(){
+	Jweather.getChinaWeatherToFile("xiamen","D:/xiamen.xml");
+	Jweather.getChinaWeatherFromFile("D:/xiamen.xml",function(data){
+	//alert(data)
+	var tq = data.split("\$");
+	$("#temp").html(tq[3]+"°");
+	});
+});
+</script>
+
+    <div id="main-wrapper">
+	  <div class="main_news">
+      <div class="main_newstit"><h2>Горячие источники</h2></div>
+       
+      <input type="hidden" id="p" value="1">
+      <ul id="list">
+        
+         <li><a href="javascript:;"><img src="../upload/201801080224014.jpg"><div class="txt"><h3>Горячие источники Шэнчжисян</h3><span>Горячие источники Шэнчжисян находятся в районе Тунъань в поселке Динси;</span></div></a></li>		
+		
+         <li><a href="javascript:;"><img src="../upload/201801080201905.jpg"><div class="txt"><h3>Горячие источники Тяньму</h3><span>Если выбрать горячий источник Цзимэе,  то в перевую очередь рукомендуются горячие источники  Тяньму,</span></div></a></li>		
+		
+      </ul>
+      <div class="clear"></div>
+       
+     </div>
+ </div>
+<script>
+var p=$("#p").val();
+function loadMore(){
+	var page=parseInt(p)+1;
+	$.get("http://rus.visitxm.com:80/sightsee/discover.do?tp=102&type=23&keyword=104&grade=&page="+page,function(data){
+		p++;
+		$("#list").append(data);
+		if(p==1){
+			$("#loadmore").hide();
+		}
+	});
+}
+</script>
+﻿
+<!-- footer -->
+<div class="footer-wrapper boxed-style">
+<!-- Get Footer Widget -->
+<div class="container footer-container">
+<div class="footer-widget-wrapper">
+<div class="row">
+<div class="four columns mb0" style="width:500px">
+<div class="custom-sidebar widget_text">			
+<div class="textwidget"><h1>Сямынь туризма</h1>
+<span>Город Сямэнь расположен посреди моря, море находится в городе; здесь есть море, острова, горы и город; их можно рассматривать как элементы, из которых должно состоять красивое место, и здесь Сямэнь не ударил в грязь лицом. Многокультурность и уникальное смешение западного и восточного стилей сформировали в Сямыне всеобъемлющий дух города. Наслаждайтесь!</span>
+<div class="clear"></div>
+</div>
+</div></div>
+<div class="columns" style="width:400px;margin-left:40px"><div class="custom-sidebar"><h3 class="custom-sidebar-title">Contact us</h3><div class="gdl-recent-post-widget"><ul><li><img alt="" style="width: 20px; float: left; margin-right:10px " src="../images/ico_mail.png">330445074@qq.com</li><li><img alt="" style="width: 20px; float: left; margin-right:10px" src="../images/ico_tel.png">12345</li>
+</ul>														</div></div></div>						
+<div class="clear"></div>
+</div>		
+<!-- Get Copyright Text -->
+<div class="copyright-wrapper">
+	<div class="copyright-border"></div>
+	<div class="copyright-left"><a href="javascript:;">闽ICP备06013218号-2,</a> Copyright © 2021 All Right Reserved, <a href="../index4.html">visitxm.com</a></div>
+</div>
+</div></div></div>
+<div style='display:none'>
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1272861308'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/z_stat.php%3Fid%3D1272861308' type='text/javascript'%3E%3C/script%3E"));</script>
+</div>
+
+
+</body></html>

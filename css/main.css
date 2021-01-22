@@ -1,0 +1,139 @@
+body{background-color:#c4e8ff; background:url(../images/bg.jpg) center top no-repeat}
+#main_pic{margin:0 auto; height:340px; background:url(../images/bpic.jpg) center top no-repeat}
+#main_pic div.container{position:relative;}
+#main_pic div.container span{display:block; position:absolute; top:30px; right:30px; font-size:56px; font-family:"Microsoft YaHei", 
+	'Arial Black'; color:#fff; text-shadow:2px 2px 5px #333; cursor:default}
+
+#dao_pic{margin:0 auto; height:147px; background:url(../images/zqdjs.jpg) center top no-repeat}
+#dao_pic div.container{position:relative;}
+#dao_pic div.container span{display:block; position:absolute; top:60px; right:129px; font-size:56px; font-family:"Microsoft YaHei", 
+	'Arial Black'; color:#fff; text-shadow:2px 2px 5px #333; cursor:default}
+.con_pre{margin-top:20px; height:780px; overflow:hidden;}
+.main_news{float:left; width:690px; height:320px;}
+.main_newstit{width:220px; height:60px; background-color:#0062a5;}
+.main_newstit h2{padding-left:20px; line-height:60px; color:#fff; font-size:18px; font-family:"Microsoft YaHei",Arial; font-weight:bold;}
+.shortcut {float:left; width:220px; height: 320px; background:#00416c; margin-right:10px; overflow:hidden;}
+.shortcut h2{margin:0 10px 0 10px; padding-left:10px; color:#7dc7fa; border-bottom:1px solid #21638e}
+.shortcut ul{margin-top:8px; margin-left: 20px; line-height:33px; font-size:16px;}
+.shortcut ul li{padding-left:14px; background:url(../static/images/ql_dot.png) 0 17px no-repeat}
+.shortcut ul li a{color:#fff;}
+.shortcut ul li a:hover,.shortcut ul li a:active{color:#67bffc}
+.main_news ul{margin-top:10px;}
+.main_news ul li{margin-top:6px; padding-bottom:10px; width:595px; border-bottom:1px dotted #cbcbcb}
+.main_news ul li a img{float:left; width:160px; height:100px;}
+.main_news ul li a div.txt{display:block; padding-left:15px; width:420px; height:100px; overflow:hidden;}
+.main_news ul li a:hover div.txt{background-color:#f5f5f5;}
+.main_news ul li a div.txt h3{font-size:16px; line-height:36px; font-weight:700; color:#454545;}
+.main_news ul li a:hover div.txt h3{color:#333;}
+.main_news ul li a div.txt span{font-size:12px; line-height:18px; color:#737373}
+.main_news ul li a:hover div.txt span{color:#565656}
+.read_more{margin-top:10px; width:588px; height:50px; line-height:50px; text-align:center; background-color:#f2f2f2}
+a.read_more_link:hover{color:#333;}
+.book{float:right; position:relative; width:290px; height:320px; overflow:hidden;}
+.book h2{height:36px; line-height:36px; font-size:18px; font-weight:700; border-bottom:3px solid #a4d7f5}
+.book h2 span.tit{position:absolute; top:0; border-bottom:3px solid #1d7aae; line-height:36px;}
+.book h2 span.more{float:right; font-size:14px; font-weight:normal; text-align:right; font-style:italic}
+.book_tit{width:382px; height:60px; overflow:hidden;}
+.book_tit ul li{float:left; width:191px; height:60px; background-image:url(../static/images/book_type.png); background-repeat:no-repeat; cursor:pointer;}
+.book_tit ul li.book_flight_on{background-position:0 0}
+.book_tit ul li.book_flight_off{background-position:0 -60px}
+.book_tit ul li.book_hotel_off{background-position:-191px 0}
+.book_tit ul li.book_hotel_on{background-position:-191px -60px}
+.book_con{margin-top:10px; width:288px; height:269px; background-color:#fff; border:1px solid #a9d9f8}
+.book_con ul{margin-left:10px; margin-top:10px; line-height:25px;}
+.book_con ul li{padding-left:10px; width:260px; height:25px; overflow:hidden; white-space: nowrap; text-overflow: ellipsis; background:url(../images/sm_arrow.png) 0 center no-repeat}
+.book_con ul li a{font-size:14px;}
+.book_con ul li a:hover{text-decoration:underline}
+.sTrip{float:left; margin-top:10px; width:920px; height:428px; background:#fff; overflow:hidden}
+.sTrip h2{padding-left:20px; height:60px; line-height:60px; font-size:18px; font-weight:700; color:#fff; background-color:#0062a5}
+.sTrip h2 span.more{float:right; margin-left:50px; font-size:14px; font-weight:normal; text-align:right; font-style:italic}
+.sTrip h2 span.more a{padding-right:20px; color:#fff;}
+.sTrip h2 span.more a:hover{color:#a4d7f5;}
+a.sTag{display:block; float:right; margin-top:16px; margin-right:20px; padding:2px 10px; height:24px; line-height:24px; font-size:14px; border-radius:3px;}
+a.sTag:hover{background:#003960; color:#fff;}
+.tag1{background:#fea7ca; color:#902d54}
+.tag2{background:#45d2c1; color:#004b41}
+.tag3{background:#9ce280; color:#164d00}
+.tag4{background:#60bdfe; color:#003152}
+.tag5{background:#ffdf5e; color:#6e5800}
+.tripb{float:left; width:287px; height:368px;}
+.tripb .tit{padding-left:15px; padding-right:15px; width:257px; height:126px; background-color:#d1e7f4}
+.tripb .tit h3{padding:10px 0px 0px 0px; width:260px; height:40px; color:#333; font-weight:700; overflow:hidden}
+.tripb .tit h3 em{font-family:Arial; font-size:32px; font-weight:700; color:#0061a4}
+.tripb .tit span{font-size:12px; line-height:14px}
+.tripb_pic{position:relative; width:287px; height:242px;}
+.tripb_pic em{position:absolute; right:50px; width:30px; height:15px; background:url(../images/trip_arrow_down.png)}
+.trips_con{float:right; width:633px; height:368px;}
+.trips_con ul{margin-left:20px; margin-top:15px;}
+.trips_con em{font-family:Arial; font-size:32px; font-weight:700; color:#54a7e3}
+.rpcon{float:right; margin-top:10px; width:290px; height:428px; overflow:hidden}\
+.rspic{width:290px; height:146px}
+.rspic img{width:290px; height:136px; margin-bottom:10px;}
+
+H1{margin-bottom:20px; font-size:30px; font-weight:700; color:#454545; line-height:50px; text-align:center;}
+H1.tit-line{background:url(../images/tit-line.png) center center no-repeat}
+.mb5{margin-bottom:5px;}
+.tit_sub{margin:0 auto; text-align:center; font-size:18px; font-style:italic}
+.tit_more{margin:0 auto; padding-top:20px; padding-bottom:20px; text-align:center; font-size:18px; font-style:italic}
+.tit_more a{color:#1d7aae}
+.tit_more a:hover{color:#333}
+.left,.l{display:inline;float:left;}
+.right,.r{display:inline;float:right;}
+/* E板块CSS样式 */
+#channelNav{display:none;}
+#contentTG .pic img{width:230px;height:279px;}
+#contentTG .pic,.same .pic,.pubFun .pp li{position:relative;}
+#contentTG .label{position:absolute;top:5px;left:20px;_left:2px;margin:0 auto;color:#FFF;line-height:14px;text-align:left;padding:3px 5px 0 0}
+#contentTG .label em,.same .pic .label em,.pubFun .pp .label em{margin:0;position:relative;z-index:2;color:#FFF;font:18px/18px "Microsoft YaHei";margin-right:3px;font-weight:700; text-shadow: 2px 2px 2px #333;}
+#contentTG{width:1230px;margin:20px auto 20px;}
+#contentTG .left{width:230px;height:360px; margin-right:20px;}
+#contentTG .bord{width:230px;height:360px}
+#contentTG .left h2{height:20px;padding:8px 17px 0}
+#contentTG .left .pic {width:230px;height:279px}
+#contentTG .left .pic span{display:block;margin:9px auto 2px;line-height:20px}
+#contentTG .left .line{width:89%}
+#contentTG .left .tg_list {width:228px; height:79px; border:1px #cbcbcb solid; background-color:#fff}
+#contentTG .left .tg_list ul{width:216px; margin:6px auto 0}
+#contentTG .left .tg_list li{float:left; padding-left:15px; width:90px; background:url(../static/images/tg_dot.png) no-repeat 6px 9px; font-size:12px; line-height:16px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+#contentTG .left .tg_list li.long{width:210px}
+#contentTG .left .tg_list li a {color:#333;}
+#contentTG .left .tg_list li a:hover {color:#3389d8;}
+#contentTG .btns{position:relative;font-size:0;}
+#contentTG .btns a{position:absolute;width:52px;height:52px;top:-237px;left:0; background:url(../static/images/tg_arrow.png) no-repeat;}
+#contentTG .btns .up{background-position:0px 0px;left:-50px}
+#contentTG .btns .down{background-position:right 0px;left:auto;right:-50px}
+#contentTG .btns a:hover.up{background-position:0 -52px}
+#contentTG .btns a:hover.down{background-position:right -52px}
+#contentTG .cons{padding-bottom:20px;width:1230px;overflow:hidden;position:relative;height:360px}
+#contentTG .con{float:left;width:9999px;position:absolute;left:0;top:0;}
+#destinations {padding-bottom:20px;}
+#destinations ul{width:1250px;}
+#destinations ul li {float:left; padding-top:0px; padding-bottom:0px; margin-right:20px; margin-bottom:20px; width:230px; height:230px; position:relative; overflow:hidden; background-color:#7f7f7f}
+#destinations ul li.first {width:480px; height:230px;}
+#destinations ul li img{position:absolute;}
+#destinations ul li a span{display:block; position:absolute; bottom:0px; width:100%; height:47px; background:url(../static/images/mask.png) repeat-x}
+#destinations ul li a:hover span{height:230px; filter:alpha(opacity=50); -moz-opacity:0.5; opacity:0.5; background:#000;}
+#destinations ul li em{position:absolute; bottom:8px; margin-left:10px; width:100%; height:auto; font-size:18px; font-style:normal; line-height:21px; color:#fff; text-shadow: 2px 2px 2px #000;}
+#map{width:100%; height:689px; background:#3ba0e6}
+.attraction_map {position:relative; width:1230px; height:689px; background:url(../static/images/attraction_map.jpg) center 0 no-repeat;}
+.region a{position: absolute;  font-size: 14px; font-family:"Microsoft YaHei", Arial; font-weight: 700; color: #fff; cursor:pointer;}
+.region a:hover{color:#87ceff}
+.region a#tongan{left: 558px; top: 273px;} 
+.region a#jimei{left: 483px; top: 427px;} 
+.region a#xiangan{left: 719px; top: 383px;} 
+.region a#haicang{left: 462px; top: 544px;} 
+.region a#huli{left: 599px; top: 544px;} 
+.region a#siming{left: 588px; top: 589px;} 
+.strategy{height:400px;}
+.strategy ul li{float:left; width:285px; height:285px; position:relative; margin-right:30px;}
+.strategy ul li.last{margin-right:0px;}
+.strategy ul li img{position:absolute; width:285px; height:285px; border-radius:9em;}
+.strategy_msk{position:absolute; bottom:-1px; width:285px; height:76px; background:url(../images/strategy_msk.png) center center no-repeat}
+.strategy_txt{position:absolute; margin:0 auto; width:285px; text-align:center;}
+.strategy .tit{top:222px;}
+.strategy .pos{left:5px; bottom:2px;}
+.strategy_tit{margin:0 auto; width:200px; font-size:16px; line-height:16px;}
+.strategy_pos{margin:0 auto; padding-top:10px; width:78px; height:24px; text-align:center; background:url(../images/strategy_pos.png) 0px 7px no-repeat; bottom:0px; font-size:14px; color:#666;}
+.discover_more{float:right; padding-right:20px; text-align:right;}
+.discover_more a{font-size:13px; font-weight:700; color:#ffa201;}
+.discover_more a:hover{color:#ffb83c}

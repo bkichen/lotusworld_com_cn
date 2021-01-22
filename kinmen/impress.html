@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>发现金门</title>
+</head>
+<link rel="stylesheet" href="css/global.css">
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/pubu.css">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/hovers.js"></script>
+<!--[if IE 6]>
+<script src="js/DD_belatedPNG.js"></script>
+<script>
+  DD_belatedPNG.fix('.png_bg img');  //class="png_bg"
+</script>
+<![endif]-->
+<script src="js/pubu.min.js"></script>
+<script>
+$(document).ready(function() {
+	//blocksit define
+	$(window).load( function() {
+		$('#container').BlocksIt({
+			numOfCol: 4,
+			offsetX: 8,
+			offsetY: 8
+		});
+	});
+	
+	//window resize
+	var currentWidth = 980;
+	$(window).resize(function() {
+		var winWidth = $(window).width();
+		var conWidth;
+		if(winWidth < 660) {
+			conWidth = 440;
+			col = 2
+		} else if(winWidth < 880) {
+			conWidth = 660;
+			col = 3
+		} else {
+			conWidth = 980;
+			col = 4;
+		}
+		
+		if(conWidth != currentWidth) {
+			currentWidth = conWidth;
+			$('#container').width(conWidth);
+			$('#container').BlocksIt({
+				numOfCol: col,
+				offsetX: 8,
+				offsetY: 8
+			});
+		}
+	});
+});
+</script>
+<body>
+<!--header S-->
+<div class="header">
+<div class="code"><a href="javascript:;" target="_blank">金门县观光旅游网</a> <i>|</i> <a href="javascript:void(0)" class="add_code">访问二维码地址</a>
+<div class="qr_code"></div>
+</div>
+  <div class="nav">
+    <div class="weather">
+    <div class="whk"></div>
+    <iframe name="weather_inc" src="javascript:;" width="280" height="25" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div><ul>
+        <li><a class="box png_bg" href="javascript:;"><img src="images/nav01_off.png"></a></li>
+        <li><a class="box png_bg" href="process.html"><img src="images/nav02_off.png"></a></li>
+        <li><a class="box png_bg" href="free.html"><img src="images/nav03_off.png"></a></li>
+        <li><a class="box png_bg" href="hotel.html"><img src="images/nav04_off.png"></a></li>
+        <li><a class="box png_bg" href="act.html"><img src="images/nav05_off.png"></a></li>
+        <li><a class="box png_bg" href="traffic.html"><img src="images/nav06_off.png"></a></li>
+        <li><img src="images/nav07_on.png"></li></ul>
+  </div>
+</div>
+<!--header E-->
+<!--main S-->
+<div class="main">
+<div class="con">
+<!--pubu S-->
+<div id="container">
+	<div class="grid">
+		<div class="imgholder"> <a href="javascript:;"><img src="images/strategy/vp001.jpg" width="200"></a>
+		</div>
+		<strong>金门旅游-浪漫金门</strong>
+		<p>没有看过外面的世界的人没资格说只喜欢自己待着的地方，那叫坐井观天...</p>
+		<div class="meta">by 东坡居士</div>
+	</div>
+	<div class="grid">
+		<div class="imgholder"> <a href="javascript:;"><img src="images/strategy/vp002.jpg" width="200"></a>
+		</div>
+		<strong>金门旅游-节庆</strong>
+		<p>回复醉舞斜阳：其实这个岛的海水并不清澈，但是很翠绿，配上天好，云美所以景色还不错。呵呵，补充一下，黑色的是珊瑚或者是海草。不是垃圾，哈</p>
+		<div class="meta">by 喜洋洋</div>
+	</div>
+	<div class="grid">
+		<div class="imgholder"> <a href="javascript:;"><img src="images/strategy/vp003.jpg" width="200"></a>
+		</div>
+		<strong>金门旅游-闽南</strong>
+		<p>人生只若初见，第一次看见还是在庞贝城...</p>
+		<div class="meta">by 红太郎</div>
+	</div>
+	<div class="grid">
+		<div class="imgholder"> <a href="javascript:;"><img src="images/strategy/vp004.jpg" width="200"></a>
+		</div>
+		<strong>金门旅游-高粱&免税</strong>
+		<p>喜欢你的这张#精美照片#，来自游记《发现海南》...</p>
+		<div class="meta">by 帅到掉渣</div>
+	</div>
+	<div class="grid">
+		<div class="imgholder"> <img src="images/strategy/vp006.jpg" width="200">
+		</div>
+		<strong>北風爺神威的立於道路旁</strong>
+		
+		<div class="meta">by 你不知道我是谁</div>
+	</div>
+	<div class="grid">
+		<div class="imgholder"> <img src="images/strategy/vp007.jpg" width="200">
+		</div>
+		<strong>金門風獅爺</strong>
+		
+		<div class="meta">by 小牧</div>
+	</div>
+	<div class="grid">
+		<div class="imgholder"> <img src="images/strategy/vp008.jpg" width="200">
+		</div>
+		<strong>李將軍廟旁的大型風雞</strong>
+		<div class="meta">by 哼哼</div>
+	</div>
+	<div class="grid">
+		<div class="imgholder"> <img src="images/strategy/vp009.jpg" width="200">
+		</div>
+		<strong>金酒公司以高粱酒造型為門口地標</strong>
+		
+		<div class="meta">by 黎明</div>
+	</div>
+	<div class="grid">
+		<div class="imgholder"><img src="images/strategy/vp10.jpg" width="200">
+		</div>
+		<strong>建公嶼</strong>
+		
+		<div class="meta">by 小鬼当家</div>
+	</div>
+	<div class="grid">
+		<div class="imgholder"> <img src="images/strategy/mn.jpg" width="200">
+		</div>
+		<strong>黃廷參三落大厝</strong>
+		<div class="meta">by 厦门旅游网</div>
+	</div>
+	<div class="grid">
+		<div class="imgholder"><img src="images/strategy/bird.jpg" width="200">
+		</div>
+		<strong>賞鳥生態 鵲鴝</strong>
+		
+		<div class="meta">by 羊皮皮万花筒</div>
+	</div>
+	<div class="grid">
+		<div class="imgholder"> <img src="images/strategy/gl.jpg" width="200">
+		</div>
+		<strong>高梁田田後方金門太武山</strong>
+		
+		<div class="meta">by 快乐的童年</div>
+	</div>
+	<div class="grid">
+		<div class="imgholder"> <img src="images/strategy/de.jpg" width="200">
+		</div>
+		<strong>得月樓</strong>
+		
+		<div class="meta">by 云山</div>
+	</div>
+	<div class="grid">
+		<div class="imgholder"> <img src="images/strategy/ye.jpg" width="200">
+		</div>
+		<strong>鸕鶿夜歸美景</strong>
+		<div class="meta">by 每一天</div>
+	</div><!---->
+</div>
+<!--pubu E-->
+</div>
+</div>
+<!--main E-->
+<!--footer S-->
+<div class="footer">
+    <p>金门县交通旅游局版权所有 Copyright All Rights Reserved.<br> 
+住址：893金门县金城镇民生路60号，电话：082-123456 | <a href="#">交通位置图</a> | <a href="#">服务信箱</a><br> 
+最佳浏览环境：Internet Explorer 7.0 以上版本/屏幕解析度1920x1080</p>
+<!--footer E-->
+</div>
+</body>
+</html>

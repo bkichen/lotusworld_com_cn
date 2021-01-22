@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>厦門（アモイ）観光</title>
+<meta name="description" content="厦門（アモイ）観光">
+<meta name="keywords" content="厦門（アモイ）市旅游局,厦門（アモイ）アジア太平洋地域観光発展センター,厦門（アモイ）観光">
+<link rel="stylesheet" href="css/global.css">
+<link rel="stylesheet" href="css/common1.css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body class="index980" id="index980">
+<div id="body">
+    <div class="header">
+        <common-head></common-head>
+
+</div>
+
+<div class="add">
+  <div class="weather">
+    <div class="whk"></div>
+    <iframe name="weather_inc" src="javascript:;" width="280" height="25" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div>
+  <div class="tips"><a class="selected">알림</a></div>
+</div>
+<div class="cb"></div>
+<div class="tips_con">
+  <div class="note">
+    <ul v-html="noteHtml">
+      <li><a href="javascript:;">해물식용의 주의사항</a></li>
+      <li><a href="javascript:;">태풍상식</a></li>
+      <li><a href="javascript:;">하문해수고저조시간의 계산방법</a></li>
+      <li><a href="javascript:;">상용전화</a></li>
+      <li><a href="javascript:;">주점방화의 주의사항</a></li>
+    </ul>
+  </div>
+    <div class="note_txt" v-html="noteTxt">hbhrwfwer</div>
+</div>
+<div class="cb"></div>
+<div class="footer">
+    <p id="copyright">C<a href="javascript:;"> 闽ICP备06013218号-2 ， </a> opyright © 2009-2016 www.lotusworLd.com.cn Corporation. All Rights Reserved.</p>
+</div>
+</div>
+
+<script src="baseJS/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script src="baseJS/hammer.min.js"></script>
+<script src="baseJS/slider.js"></script>
+<script src="baseJS/tc-slider.js"></script>
+<script src="baseJS/slider-ctrl.js"></script>
+<!-- jQuery -->
+<script src="baseJS/jquery.min.js"></script>
+<!-- jQuery Easing -->
+<script src="baseJS/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="baseJS/bootstrap.js"></script>
+<!-- Waypoints -->
+<!--<script src="js/jquery.waypoints.min.js"></script>-->
+<!-- Main -->
+<script src="baseJS/main.js"></script>
+<!-- Plugins for this template -->
+<script src="baseJS/jquery-plugin-collection.js"></script>
+<!-- Custom script for this template -->
+<script src="baseJS/custom.js"></script>
+<script src="jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="baseJS/browser.js"></script>
+<script src="baseJS/browser-polyfill.min.js"></script>
+<script src="baseJS/vue/vue.js"></script>
+
+<script src="baseJS/axios.min.js"></script>
+<script src="baseJS/common.js"></script>
+<script src="baseJS/vue/httpVueLoader.js"></script>
+<script src="components/header1.js"></script>
+<script type="text/javascript">
+    var app = new Vue({
+        el:"#body",
+        data:{
+            xmlyw,
+            noteHtml:"",
+            noteTxt:""
+        },
+        created(){
+            xmlyw.http.get("/xmInfoKr/list",{params:{sysMenuId:1060,page:1,pageSize:8}}).then((res)=>{
+                var xmInfoKrList = res.data.data;
+                for(var i=0;i<xmInfoKrList.length;i++){
+                    var  xmInfoKr = xmInfoKrList[i];
+                    this.$data.noteHtml += '<li><a href="javascript:void(0)" onclick="showContent(\''+xmInfoKr.id+'\')">'+xmInfoKr.title+'</a></li>';
+                    if(i==0){
+                        showContent(xmInfoKr.id);
+                    }
+                }
+
+            });
+        }
+    })
+    function showContent(id) {
+        xmlyw.http.get("/xmInfoKr/detail",{params:{id:id,page:1,pageSize: 1}}).then((res) => {
+            var xmInfoKr = res.data.data.item;
+            app.$data.noteTxt = '<h3>'+xmInfoKr.title+'</h3>'
+                +xmInfoKr.content;
+        });
+
+    }
+</script>
+</body></html>

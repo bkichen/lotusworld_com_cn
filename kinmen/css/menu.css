@@ -1,0 +1,9 @@
+#menu{width: 88px;height: auto; position: fixed;top: 20px;right: 20px;margin-top: 0px; display:none;}
+#menu ul{display: block;list-style: none}
+#menu ul li a{width: 88px; height: 48px; line-height: 48px; text-align: center; background-color: #1e81a3; border-bottom:1px dashed #ddd; color: #fff; display: block}
+#menu ul li a:hover,#menu ul li a.cur{background-color: #1e81a3;color: #fff;}
+#menu ul li#F01 a:hover,#menu ul li#F01 a.cur{background-color: #e8b300;}
+#menu ul li#F02 a:hover,#menu ul li#F02 a.cur{background-color: #ef9c78;}
+#menu ul li#F03 a:hover,#menu ul li#F03 a.cur{background-color: #bca6f3;}
+#menu ul li#F04 a:hover,#menu ul li#F04 a.cur{background-color: #ecaad7;}
+#menu ul li#F05 a:hover,#menu ul li#F05 a.cur{background-color: #5dcb3a;}

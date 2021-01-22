@@ -1,0 +1,123 @@
+.mbanner {
+	margin:0 auto; width:980px;
+}
+.mbtn_con {
+	height:320px; margin-bottom:15px;
+}
+.mbtn_con ul { 
+    list-style-type:none;
+}
+.mbtn_con ul li {
+	float:left; display:inline-block; width:140px; height:120px; font-size:0px; text-indent:-9999px;
+}
+.mbtn_con ul li a p{
+	width:140px; height:120px;
+}
+.mbtn_con ul li a:link p,.mbtn_con ul li a:visited p  {
+	background-repeat:no-repeat; background-position:0 0;
+}
+.mbtn_con ul li a:hover p,.mbtn_con ul li a:active p {
+	background-repeat:no-repeat; background-position:0 -120px;
+}
+.traffic_menu01 {
+	background:url(../images/traffic/traffic_menu01_off.png)
+}
+.traffic_menu02 {
+	background:url(../images/traffic/traffic_menu02_off.png)
+}
+.traffic_menu03 {
+	background:url(../images/traffic/traffic_menu03_off.png)
+}
+.traffic_menu04 {
+	background:url(../images/traffic/traffic_menu04_off.png)
+}
+.traffic_menu05 {
+	background:url(../images/traffic/traffic_menu05_off.png)
+}
+.traffic_menu06 {
+	background:url(../images/traffic/traffic_menu06_off.png)
+}
+.traffic_menu07 {
+	background:url(../images/traffic/traffic_menu07_off.png)
+}
+.ticket {
+	float:left; width:273px; height:300px; border:1px solid #2960c4; background:#e4f2ff; font-size:12px; color:#666;
+}
+.ticket h3 {
+	padding-left:10px; height:30px; line-height:30px; font-size:14px; font-weight:bold; color:#fff; background:#2960c4
+}
+.ticket form {
+	margin:0 auto; padding-top:20px; width:240px;
+}
+.ticket p {
+	margin-left:10px; margin-top:6px; margin-bottom:6px;
+}
+.ticket p input[type=text] {
+	width:160px; height:24px; border:1px solid #ccc;
+}
+.ticket p.btn {
+	text-align:center;
+}
+.ticket p.btn button {
+	margin:0 auto; margin-top:20px; width:110px; height:30px; border:0; border-radius:5px; background-color:#2960c4; color:#fff; font-size:14px; font-weight:700; cursor:pointer;
+}
+.tips {
+	float:left; margin-left:0px; width:700px; height:300px; border:1px solid #0092df; background:#fff
+}
+.tips h3 {
+	margin-left:15px; padding-left:25px; height:30px; line-height:30px; font-size:14px; font-weight:bold; color:#0092df; background:url(../images/traffic/ico_book.png) 0 center no-repeat
+}
+.tips ul { 
+    list-style-type:none; margin:5px 15px 10px 15px;
+}
+.tips ul li {
+	width:670px; height:30px; line-height:30px; font-size:14px; background:url(../images/traffic/ico_arrow.png) 0 12px no-repeat; border-bottom:1px dotted #ccc; clear:both; overflow:hidden;
+}
+.tips ul li a {
+	display:block; float:left; width:577px; margin-left:12px; overflow:hidden;
+}
+.tips ul li span {
+	float:right; font-size:11px; font-family:Arial; color:#999;
+}
+.entrance {
+	float:right; width:270px; height:302px; border:0px solid #2960c4; background:#fff
+}
+.map {
+	margin-top:10px;
+}
+.map_main {
+	float:left; width:700px; height:600px; border:5px solid #c1d5f5; background-color:#fff
+}
+.map_right {
+	float:left; width:265px; height:600px;  border:5px solid #c1d5f5; border-left:none; background-color:#fff; font-size:12px;
+}
+.map_search_box {
+	margin:2px; width:261px;
+}
+.map_search_box h3 {
+	padding-left:10px; height:30px; line-height:30px; font-size:14px; font-weight:bold; color:#fff; background:#2960c4
+}
+.search_tag {
+	padding-top:20px; height:40px; background:#e4f2ff;
+}
+.search_tag span {
+	margin-left:10px;
+}
+.search_tag span input {
+	width:120px; height:21px; border:1px solid #ccc;
+}
+.search_way {
+	margin-top:2px; padding-top:15px; height:130px; background:#e4f2ff;
+}
+.search_way span {
+	margin-left:10px;
+}
+.search_way span input {
+	width:120px; height:21px; border:1px solid #ccc;
+}
+.search_type {
+	margin:0 auto; margin-top:10px; width:220px;
+}
+.search_type a {
+	display:inline-block; margin-left:5px; margin-right:5px; width:60px;
+}

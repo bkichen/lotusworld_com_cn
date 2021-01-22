@@ -1,0 +1,138 @@
+.index_slider {
+	float:left; width:520px; height:240px;
+}
+.slider{display:none}
+.focus span{width:10px;height:10px;margin-right:10px;border-radius:50%;background:#666;font-size:0}
+.focus span.current{background:#fff}
+.index_tit {
+	margin-left:15px; height:50px; line-height:50px; font-size:16px; font-weight:bold; font-family:'Microsoft Yahei';
+}
+.more {
+	float:right; margin-top:20px; margin-right:15px; font-size:12px; font-family:Arial
+}
+.index_news {
+	float:right; width:390px; height:240px; background-color:#e3efff; 
+}
+.index_news h3 {
+	color:#3b527f; 
+}
+.index_news ul { 
+    list-style-type:none; margin:5px 15px 10px 15px;
+}
+.index_news ul li {
+	width:360px; height:24px; line-height:24px; font-size:12px; background:url(../images/ico_arrow01.png) 0 10px no-repeat; clear:both; overflow:hidden;
+}
+.index_news ul li a {
+	display:block; float:left; width:270px; margin-left:12px; overflow:hidden;
+}
+.index_news ul li span {
+	float:right; font-size:11px; font-family:Arial; color:#999;
+}
+.index_festival {
+	float:left; margin-top:10px; width:520px; height:250px;
+}
+.festival_news {
+	float:left; margin-left:5px; width:255px; background-color:#fff
+}
+.festival_news h3 {
+	color:#ff6666; 
+}
+.festival_news ul { 
+    list-style-type:none; margin:5px 15px 10px 15px;
+}
+.festival_news ul li {
+	width:230px; height:24px; line-height:24px; font-size:12px; background:url(../images/ico_dot.png) 0 10px no-repeat; clear:both; overflow:hidden;
+}
+.festival_news ul li a {
+	display:block; float:left; width:180px; margin-left:12px; overflow:hidden; color:#565656; text-decoration:none;
+}
+.festival_news ul li a:visited{
+	color:#565656;
+}
+.festival_news ul li a:hover {
+	color:#333333;
+}
+.festival_news ul li span {
+	float:right; font-size:11px; font-family:Arial; color:#999;
+}
+.festival_pic {
+	float:right; width:255px; background-color:#fff
+}
+.index_quick {
+	float:right; margin-top:10px; width:390px; height:250px; background-color:#f5f5f5; overflow:hidden;
+}
+.index_quick h3 {
+	color:#333333; 
+}
+.quick_menu {
+	width:390px; height:182px; background:url(../images/index_quick_dot.png) center center no-repeat
+}
+.quick_menu ul {
+	margin:0 auto; width:375px;
+}
+.quick_menu ul li {
+	display:inline-block; width:91px; height:100px; text-align:center
+}
+.index_view {
+	float:left; margin-top:10px; width:520px; height:285px; background-color:#ebf5c3
+}
+.index_view h3 {
+	float:left; color:#758536; 
+}
+.index_view span.more a {
+	color:#758536;
+}
+.view_list {
+	margin-left:10px; width:490px;
+}
+.mod {
+	float:left; margin-left:10px; width:235px; height:220px; overflow:hidden
+}
+.mod h4 {
+	height:30px; line-height:30px; font-size:14px;
+}
+.mod p {
+	line-height:16px; color:#666;
+}
+.index_service {
+	float:right; margin-top:10px; width:390px; height:285px;
+}
+.service_faq {
+	float:left; width:240px; height:285px; background-color:#ffdba2
+}
+.service_faq h3 {
+	float:left; color:#d97c28
+}
+.service_faq span.more a {
+	color:#d97c28;
+}
+.service_faq ul { 
+    list-style-type:none; margin:5px 15px 10px 15px;
+}
+.service_faq ul li {
+	width:230px; height:24px; line-height:24px; font-size:12px; background:url(../images/ico_arrow02.png) 0 10px no-repeat; clear:both; overflow:hidden;
+}
+.service_faq ul li a {
+	display:block; width:190px; margin-left:12px; overflow:hidden; color:#835f26; text-decoration:none;
+}
+.service_faq ul li a:visited {
+	color:#835f26
+}
+.service_faq ul li a:hover {
+	color:#654718
+}
+.service_r {
+	float:right; width:140px;
+}
+.service_tel {
+	width:140px; height:140px; background:url(../images/tel.png) right bottom no-repeat #f7c0e5
+}
+.service_tel h3 {
+	color:#9f3b7e
+}
+.service_email {
+	margin-top:10px; width:140px; height:135px; background:url(../images/email.png) center 60px no-repeat #a7d9e5
+}
+.service_email h3 {
+	color:#1f8ea9
+}

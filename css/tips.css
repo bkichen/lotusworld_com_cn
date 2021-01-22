@@ -1,0 +1,51 @@
+.main_newstit{width:220px; height:60px; background-color:#0062a5;}
+.main_newstit h2{padding-left:20px; line-height:60px; color:#fff; font-size:18px; font-family:"Microsoft YaHei",Arial; font-weight:bold;}
+#main-wrapper{
+	width:1230px; margin:0 auto; padding-bottom:20px; padding-top:20px;
+}
+.main_tit{
+	width:1230px;
+}
+.tips_tit{
+	margin-top:30px; padding-left:70px; height:36px; font-size:24px; color:#3197dc; line-height:24px; font-weight:700; background: url(../images/travel/tit.png) 20px 1px no-repeat
+}
+.tips_txt{
+	padding:5px 20px 0px 20px; font-size:14px; line-height:18px; text-indent:24px
+}
+.vehicle ul li{
+	float:left; margin:0px 15px 0 15px; padding:10px 20px 10px 20px; width:338px; height:360px; border:1px solid #cdcdcd; text-align:center; overflow:hidden
+}
+.vehicle ul li h3{
+	font-size:18px; line-height:40px; text-align:center
+}
+.vehicle ul li p.txt{
+	font-size:14px; color:#666; text-align:left; line-height:18px;
+}
+table.altrowstable {
+	margin:0 15px 0 15px;
+	width:1200px;
+	font-family: verdana,arial,sans-serif;
+	font-size:12px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #a9c6c9;
+	border-collapse: collapse;
+}
+table.altrowstable th {
+	border-width: 1px;
+	padding: 12px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+table.altrowstable td {
+	border-width: 1px;
+	padding: 12px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+.oddrowcolor{
+	background-color:#d4e3e5;
+}
+.evenrowcolor{
+	background-color:#c3dde0;
+}

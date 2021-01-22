@@ -1,0 +1,28 @@
+
+.head-top {height:50px;border-bottom:1px solid #d1d1d1;background:#fff; position:relative; z-index:9;
+-moz-box-shadow:0 0 4px #BABABA;
+-webkit-box-shadow:0 0 4px #BABABA; 
+box-shadow:0 0 4px #BABABA; 
+-o-box-shadow:0 0 4px #BABABA; 
+}
+.top-position {margin:0 auto;padding:2px 0 0;width:1000px; text-align:left; overflow:hidden; zoom:1;}
+.head-top .logo {margin:0;border:none;float:left;}
+.head-top .lv-nav {float:right;margin:16px 0 0;list-style:none; overflow:hidden;zoom:1;}
+.head-top .lv-nav li {font-size:12px; float:left;background:url(../../zt/000global/img/top_menu_line.gif) no-repeat right 2px;padding:0 7px;/*font:12px Microsoft YaHei !important;*/ font-size:12px; font-family:"宋体"; line-height:18px;}
+.head-top .lv-nav li.noborder {border:none;}
+.head-top .lv-nav li.linenone {background:none;}
+.head-top a {font-size:12px; color:#666; text-decoration:none;}
+.head-top a:hover {color:#333;text-decoration:underline;}
+.relative {position:relative;}
+.newicon {margin-left: -5px;position: absolute;top: 5px;}
+.ph_zt{ float:left; margin-left:10px; display:inline}
+
+.hh_hotline{ height:50px; line-height:50px; background:url(../../zt/000global/img/head_call_icon.gif) no-repeat scroll left 16px transparent;color: #e41080;display: block;float: left; font-family:Arial; font-size:20px;overflow: hidden;padding:0 0 0 20px; margin-left:20px;}
+
+.margin_b20{ display:block; margin:0 auto; margin-bottom:20px;}
+
+
+.gz_title{ font-size:18px; height:40px; line-height:40px; margin:0 auto 20px; position:relative; width:980px; text-align:center;}
+.gz_title p{ position:absolute; left:0; top:0; width:100%; height:20px; overflow:hidden; border-bottom:1px solid #CCCCCC; z-index:1;}
+.gz_title strong{ display:inline-block; padding:0 20px; height:40px; background:#FFFFFF; font-family: "微软雅黑"; font-size:26px; position:relative; z-index:2; font-weight:normal;}
+body .ztfooter{ width:100%; background:#fff; color:#666;}

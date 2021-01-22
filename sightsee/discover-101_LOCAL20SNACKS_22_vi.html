@@ -1,0 +1,204 @@
+
+
+
+
+
+ 
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=1,width=device-width">
+<meta name="keywords" content="Xiamen Tourism,Xiamen Tour,Xiamen Tour guide,Xiamen tourism website,Scenic spot,Xiamen Hotel,Xiamen Accommodation,Xiamen traveling,gulangyu,Xiamen Snacks">
+<meta name="description" content="Xiamen Tourism,Xiamen Tour,Xiamen Tour guide,Xiamen tourism website,Scenic spot,Xiamen Hotel,Xiamen Accommodation,Xiamen traveling,gulangyu,Xiamen Snacks">
+<link rel="stylesheet" href="../static/css/main.css" type="text/css">
+<link rel="stylesheet" href="../static/css/styles.css" type="text/css">
+<link rel="stylesheet" href="../static/css/custom.css" type="text/css">
+<link rel="stylesheet" href="../css/share.css" type="text/css"> 
+<link rel="stylesheet" href="../static/css/list.css" type="text/css"> 
+<script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="../js/superfish.js"></script>
+<script type="text/javascript" src="../js/supersub.js"></script>
+<script type="text/javascript" src="../js/jquery.easing.js"></script>
+<script type="text/javascript" src="../js/gdl-scripts.js"></script>
+<script language="javascript" src="../dwr/interface/Jweather.js"> </script>
+<script language="javascript" src='../dwr/engine.js'></script>
+<script language="javascript" src='../dwr/util.js'></script>
+
+<title>Xiamen Tour</title>
+<style type="text/css">
+.new_tag {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.new_tag a.tags {
+    float: left;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background: #25a7ff;
+    font-size: 18px;
+    color: #fff;
+}
+</style>
+</head>
+
+<body>
+﻿
+
+<div class="header container">
+<div class="tfun">
+  <div class="tfun_list">
+    <ul>
+      <li class="lag_eng"><a href="javascript:;"></a></li>
+      <li class="lag_jpn"><a href="../index2.html"></a></li>
+      <li class="lag_kor"><a href="../index3.html"></a></li>
+      <li class="lag_rus"><a href="../index4.html"></a></li>
+      <li class="weather"><iframe name="weather_inc" src="javascript:;" width="85" height="25" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></li>
+    </ul>
+  </div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="header-wrapper">
+	<div class="container">
+		<div class="navigation-wrapper sliding-bar">
+			<div class="gdl-current-menu"></div>
+			<div class="main-superfish-wrapper" id="main-superfish-wrapper">
+				<ul class="sf-menu">
+				<li><div class="hp"><h1><a href="javascript:;"><img src="http://eng.visitxm.com/sightsee/images/home.png" alt=""></a></h1></div></li>
+				<li><a href="javascript:;">SCENIC<br>SPOTS</a></li>
+				<li><a href="javascript:;">DELICACIES</a></li>
+				<li><a href="javascript:;">ROMANTIC<br>TIMES</a></li>
+				<li><a href="javascript:;">FASHIONABLE<br>TOUR</a></li>
+				<li><a href="javascript:;">COMFORTABLE<br>ACCOMMODATION</a></li>
+				<li><a href="javascript:;">LOCAL<br>CUSTOMS</a></li>
+				<li><a href="javascript:;">TRAVELING<br>TIPS</a></li>
+				<li></li>
+				</ul>
+			<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+$(function(){
+	Jweather.getChinaWeatherToFile("xiamen","D:/xiamen.xml");
+	Jweather.getChinaWeatherFromFile("D:/xiamen.xml",function(data){
+	//alert(data)
+	var tq = data.split("\$");
+	$("#temp").html(tq[3]+"°");
+	});
+});
+</script>
+
+    <div id="main-wrapper">
+	  <div class="main_news">
+      <div class="main_newstit"><h2>LOCAL SNACKS</h2></div>
+      
+      <input type="hidden" id="p" value="1">
+      <ul id="list">
+        
+         <li><a href="javascript:;"><img src="../upload/9e08e786-64e6-4e71-b8c8-62c3dd48.jpg"><div class="txt"><h3>MIANXIAN HU</h3><span>A bowl of hot handmade mianxian with seafood soup that is fresh but not oily, seasoned with other ingredients</span>
+		
+	
+	</div></a></li>		
+		
+         <li><a href="javascript:;"><img src="../upload/201712290948205.jpg"><div class="txt"><h3> FENG ROU</h3><span>Cut the pork into cubes and wrap up with yellow gauze, then have it cooked in the pot</span>
+		
+	
+	</div></a></li>		
+		
+         <li><a href="javascript:;"><img src="../upload/201712290925725.jpg"><div class="txt"><h3>OYSTER OMELET</h3><span>Choose small oysters which would be tasty. </span>
+		
+	
+	</div></a></li>		
+		
+         <li><a href="javascript:;"><img src="../upload/c88cfef6-410b-422e-96fe-29159947.jpg"><div class="txt"><h3>JIANGMU DUCK </h3><span>Stir fry the muscovy duck with sesame oil and then add mature ginger and rice wine to have it cooked. It smells appetizi...</span>
+		
+	
+	</div></a></li>		
+		
+         <li><a href="javascript:;"><img src="../upload/bdf9d2a6-a73b-4d02-b8a7-0922b493.jpg"><div class="txt"><h3>PEANUT SOUP</h3><span>The fresh and sweet peanut soup that nourishes lungs is a dessert of special flavor in Xiamen. A small bowl of peanut so...</span>
+		
+	
+	</div></a></li>		
+		
+         <li><a href="javascript:;"><img src="../upload/201712290900769.jpg"><div class="txt"><h3>SANDWORM JELLY</h3><span>The Chinese name of sandworm jelly is Tu Sun Dong, from the literal meaning of which, foreigners may think that it is ma...</span>
+		
+	
+	</div></a></li>		
+		
+         <li><a href="javascript:;"><img src="../upload/201712290953644.jpg"><div class="txt"><h3>POPIAH/LUNPIAH</h3><span>Popiah is the name for spring roll called by Xiamen natives. </span>
+		
+	
+	</div></a></li>		
+		
+         <li><a href="javascript:;"><img src="../upload/201712290923552.jpg"><div class="txt"><h3>SATAY NOODLES</h3><span>Satay noodles is a well- know local snack which you can find almost everywhere in Xiamen. </span>
+		
+	
+	</div></a></li>		
+		
+      </ul>
+      <div class="clear"></div>
+      
+     </div>
+ </div>
+<script>
+var p=$("#p").val();
+function loadMore(){
+	var page=parseInt(p)+1;
+	$.get("http://eng.visitxm.com:80/sightsee/discover.do?tp=102&type=22&keyword=LOCAL SNACKS&grade=&page="+page,function(data){
+		p++;
+		
+			data=data.replace(/<em>/g,"<em style='display: none'>");
+
+		
+		
+		$("#list").append(data);
+		if(p==1){
+			$("#loadmore").hide();
+		}
+	});
+}
+</script>
+﻿
+<!-- footer -->
+<div class="footer-wrapper boxed-style">
+<!-- Get Footer Widget -->
+<div class="container footer-container">
+<div class="footer-widget-wrapper">
+<div class="row">
+<div class="four columns mb0" style="width:420px">
+<div class="custom-sidebar widget_text">			
+<div class="textwidget"><h1>XIAMEN TOURS</h1>
+<div class="clear" style="height:8px;"></div>
+<span>Xiamen is "a city at sea, a city with sea". It has sea,
+islands, hills and city, and everything else that is considered
+beautiful. The unique combination of Chinese and western
+elements and the multi- culture have made Xiamen an inclusive
+city. Xiamen is always here waiting for you to explore.</span>
+<div class="clear"></div>
+</div>
+</div></div>
+<div class="columns" style="width:400px;margin-left:40px"><div class="custom-sidebar"><h3 class="custom-sidebar-title">Contact us</h3><div class="gdl-recent-post-widget"><ul><li><img alt="" style="width: 20px; float: left; margin-right:10px " src="../images/ico_mail.png">330445074@qq.com</li><li><img alt="" style="width: 20px; float: left; margin-right:10px" src="../images/ico_tel.png">12345</li>
+</ul>														</div></div></div>						
+<div class="clear"></div>
+</div>		
+<!-- Get Copyright Text -->
+<div class="copyright-wrapper">
+	<div class="copyright-border"></div>
+	<div class="copyright-left"><a href="javascript:;">闽ICP备06013218号-2,</a> Copyright © 2020 All Right Reserved, <a href="../index6.html">visitxm.com</a></div>
+</div>
+</div></div></div>
+<div style='display:none'>
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1272223920'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/z_stat.php%3Fid%3D1272223920' type='text/javascript'%3E%3C/script%3E"));</script>
+</div>
+
+
+</body></html>

@@ -1,0 +1,90 @@
+*{ margin:0px auto;}
+body {font-size:12px;font-family:Arial, Helvetica, sans-serif,宋体;}
+#main{ margin:0px auto; width:980px; margin-top:10px; text-align:left; clear:both;} 
+#main .newscontitle{ background: url(http://www.visitxm.com/kinmen/images/news/n2.gif) no-repeat; width:637px; height:35px; line-height:35px; padding-left:10px; margin:0px 0px 15px; font-weight:bold; font-size:14px;  clear:both;}
+#main .newscontitle span{ color:#f60;}
+.content{ width:100%; text-align:center}
+.content li{ padding-left:10px;}
+.content .title{text-align:left;line-height:28px;font-weight:bold; padding-left:5px; font-size:14px; height:28px;background-color: #F7F7F7; 
+}
+#main .newswcontitle{ background: url(http://www.visitxm.com/kinmen/images/news/n1.gif) no-repeat; width:947px; height:35px; line-height:35px; padding-left:10px; margin:0px 0px 15px; font-weight:bold; font-size:14px;  clear:both;}
+#main .newswcontitle span{ color:#f60;}
+.content{ width:100%; text-align:center}
+.content li{ padding-left:10px;}
+.content .title{text-align:left;line-height:28px;font-weight:bold; padding-left:5px; font-size:14px; height:28px;background-color: #F7F7F7; 
+}
+#newsw{float:left;text-align:left;width:920px; height:100%; overflow:auto; border: 1px solid #e1e1e1; padding:10px 10px 10px; *padding:10px !important; margin-right:10px;}
+.news{width:90%; margin-bottom:5px; text-align:left; clear:both;}
+.news .contitle{ color:#565656; font-size:21px; font-family:Microsoft Yahei, Arial, Helvetica, sans-serif; padding:18px 0px 0px; text-align:center; font-weight:700}
+.news .conline{ padding:20px 0px 25px; text-align:center; margin:0px 0px 0px 0px;}
+.news .conline SPAN{ padding-left:20px; color:#666;}
+.news p{ line-height:26px; text-align:justify; text-justify:inter-ideograph; font-size:14px; text-indent:2em; padding: 15px 20px 0px; color:#585661}
+
+.h_35{height:35px;}
+.w_527{width:527px;}
+.w_500{width:495px; border-bottom:1px dashed #888; padding-left:5px;}
+.w_100{width:100px; border-bottom:1px dashed #888; }
+.left{
+float:left;
+}
+.h_1{font-size:0px; line-height:0px;height:1px; }
+.areamap{ color: #666; padding:2px;}
+.areamap a{ color: #666; text-decoration:underline}
+.areamap a:hover{ color: #017ece; text-decoration:none}
+.download{text-align:left; padding-bottom:5px; margin-top:5px;}
+.download UL LI {background:url(http://www.visitxm.com/kinmen/images/news/kijiji.gif) no-repeat 8px 8px; 
+	height:24px; line-height:24px; 
+}
+.download UL LI a{padding-left:10px; color: #BFBFBF; text-decoration:none}
+.download UL LI a:hover{ color: #FF7800; text-decoration:underline}
+.download UL LI a:visited{ color: #BFBFBF; text-decoration:none}
+.conlist{ margin-bottom:0px; *margin:5px !important;}
+.conlist li{ border-bottom:1px dashed #ccc; clear:both; line-height:30px; text-decoration:none; padding-left:5px; padding-right:5px}
+.conlist li span{ float:right; text-align:right; text-decoration:none }
+.conlist a{ display:block; text-decoration:none; color:#666}
+.conlist a:hover{ display:block; text-decoration:none; color:#ff7800}
+.conlist a:visited{ display:block; text-decoration:none; color:#666}
+.w_627 .focus{ width:627px; text-align:right; }
+.w_627 .focus a{ color:#888;}
+.newscontitle{ font-size:14px; color:#000; font-weight:bold; margin-bottom:10px;}
+.newscontitle span{ color:#f60}
+
+.search_s{
+    padding-right:10px;
+    padding-left:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    width: 270px;
+	height:40px;
+    float:left;
+    position:relative;
+    }
+    .search_s .input{
+    padding-top:6px;
+    height:19px;
+    width: 226px;
+    border: 1px solid #0086C6;
+    font-size:14px;
+    background:#fff url(http://www.visitxm.com/kinmen/images/news/search_btn.gif) no-repeat right 0;
+    }
+    .label_s{
+    color:#ccc;
+    position:absolute;
+    left:18px;top:14px;
+    display:block;
+    height:22px;
+    line-height:22px;
+    font-size:12px;
+    }
+    .submit_s{
+    cursor:pointer;
+    position:absolute;
+    left:237px;
+    top:10px;
+    width:46px;
+    height:26px;
+	color:#fff;
+	border:0px #FF6600 solid;
+    text-indent:-999em;
+	background:url("http://www.visitxm.com/kinmen/images/news/search_btn_sub.gif")
+    }

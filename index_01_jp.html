@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>厦門（アモイ）観光</title>
+<meta name="description" content="厦門（アモイ）観光">
+<meta name="keywords" content="厦門（アモイ）市旅游局,厦門（アモイ）アジア太平洋地域観光発展センター,厦門（アモイ）観光">
+<link rel="stylesheet" href="css/global.css">
+<link rel="stylesheet" href="css/common.css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/index1.js"></script>
+</head>
+<body class="index980" id="index980">
+<div id="body">
+<div class="header">
+    <common-head></common-head>
+
+</div>
+
+<div class="add">
+  <div class="weather">
+    <div class="whk"></div>
+    <iframe name="weather_inc" src="javascript:;" width="280" height="25" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div>
+  <div class="tips"><a href="tips_jp.html">楽しい旅行のために</a></div>
+</div>
+<div class="cb"></div>
+<div class="tips_con nbg aheight">
+  <div class="note common_menu">
+    <ul v-html="comonMenu">
+      <li><a href="">アモイの概況</a></li>
+      <li><a href="index_02_jp.html">市の鳥</a></li>
+      <li><a href="index_03_jp.html">市の花</a></li>
+      <li><a href="index_04_jp.html">市の樹</a></li>
+    </ul>
+  </div>
+  <div class="note_txt" v-html="noteTxt">
+  </div>
+</div>
+<div class="cb"></div>
+<div class="footer">
+    <p id="copyright"><a href="javascript:;"> 闽ICP备06013218号-2  </a>,Copyright © 2021   www.lotusworLd.com.cn Corporation. All Rights Reserved.</p>
+</div>
+</div>
+<script src="baseJS/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script src="baseJS/hammer.min.js"></script>
+<script src="baseJS/slider.js"></script>
+<script src="baseJS/tc-slider.js"></script>
+<script src="baseJS/slider-ctrl.js"></script>
+<!-- jQuery -->
+<script src="baseJS/jquery.min.js"></script>
+<!-- jQuery Easing -->
+<script src="baseJS/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="baseJS/bootstrap.js"></script>
+<!-- Waypoints -->
+<!--<script src="js/jquery.waypoints.min.js"></script>-->
+<!-- Main -->
+<script src="baseJS/main.js"></script>
+<!-- Plugins for this template -->
+<script src="baseJS/jquery-plugin-collection.js"></script>
+<!-- Custom script for this template -->
+<script src="baseJS/custom.js"></script>
+<script src="jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="baseJS/browser.js"></script>
+<script src="baseJS/browser-polyfill.min.js"></script>
+<script src="baseJS/vue/vue.js"></script>
+
+<script src="baseJS/axios.min.js"></script>
+<script src="baseJS/common.js"></script>
+<script src="baseJS/vue/httpVueLoader.js"></script>
+<script src="components/header.js"></script>
+<script type="text/javascript">
+    var index = new Vue({
+        el:"#body",
+        data:{
+            xmlyw,
+            noteTxt:"",
+            comonMenu:""
+
+        },
+        created(){
+            var id = xmlyw.getUrlParam("id");
+            xmlyw.http.get("/xmInfoJp/detail",{params:{id:id}}).then((res) =>{
+                var xmInfoJp = res.data.data.item;
+                if(xmInfoJp){
+                    this.$data.noteTxt +='<h3>'+xmInfoJp.title+'</h3>'
+                            +xmInfoJp.content;
+                }
+            });
+
+            xmlyw.http.get('/xmInfoJp/list',{params:{page:1,pageSize:4,sysMenuId:1005}}).then((res) =>{
+                var data = res.data.data;
+                for(var j=0;j<4;j++){
+                    for(var i=0;i < data.length;i++){
+                        var xmInfoJp = data[i];
+                        if(j==0 && xmInfoJp.categoryId ==120){
+                            this.$data.comonMenu += '<li><a href="index_01_jp.htm?id='+xmInfoJp.id+'">アモイの概況</a></li>';
+                        }else if(j==1 && xmInfoJp.categoryId ==121){
+                            this.$data.comonMenu += ' <li><a href="index_01_jp.htm?id='+xmInfoJp.id+'">市の鳥</a></li>';
+                        }else if(j==2 && xmInfoJp.categoryId ==122){
+                            this.$data.comonMenu += '<li ><a href="index_01_jp.htm?id='+xmInfoJp.id+'">市の花</a></li>';
+                        }else if(j==3 && xmInfoJp.categoryId ==123){
+                            this.$data.comonMenu += '<li ><a href="index_01_jp.htm?id='+xmInfoJp.id+'">市の樹</a></li>';
+                        }
+
+                    }
+
+
+                }
+            });
+        }
+    })
+
+</script>
+</body>
+</html>

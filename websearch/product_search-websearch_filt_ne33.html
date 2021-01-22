@@ -1,0 +1,167 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta name="keywords" content="Xiamen Tours">
+<meta name="description" content="Xiamen Tours">
+<title>信息列表_厦门旅游网</title>
+<link rel="stylesheet" href="../css/styles.css" type="text/css">
+<link rel="stylesheet" href="../css/custom.css" type="text/css">
+<link rel="stylesheet" href="../css/share.css" type="text/css">
+<link rel="stylesheet" href="../css/list.css" type="text/css">
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/superfish.js"></script>
+<script type="text/javascript" src="../js/supersub.js"></script>
+<script type="text/javascript" src="../js/jquery.easing.js"></script>
+<script type="text/javascript" src="../js/gdl-scripts.js"></script>
+</head>
+<script language="javascript">
+	  var r2 = new RegExp('[^0-9, ，]','');
+	 function goToPage(page){
+		  var path = 'http://xm.visitxm.com:80/';
+		  if( page.length == 0  || page == "0" ) {
+				page = "1";
+		  }
+		  if( page.search(r2) != -1 || parseInt(page) >parseInt(document.getElementById('t_num').value)  ) {
+				page = document.getElementById('t_num').value;
+		  }		  
+		  selcetPage(path,page);//open
+	 }
+	 
+ 
+    function selcetPage(path,page){
+	    var docurl = document.location.href;
+		docurl = docurl.replace("#","");
+		var tn = docurl.indexOf("page=");
+		if( tn != -1){
+		   docurl = docurl.substr(0,tn-1);
+		}
+		window.location = docurl+"&page="+page;
+	}
+    
+</script>
+<body>
+﻿
+<div class="header container">
+<div class="tfun">
+  <div class="tfun_list">
+    <ul>
+      <li class="lag_eng"><a href="../index1.html"></a></li>
+      <li class="lag_jpn"><a href="../index2.html"></a></li>
+      <li class="lag_kor"><a href="../index3.html"></a></li>
+      <li class="lag_rus"><a href="../index4.html"></a></li>
+      <li class="weather"><iframe name="weather_inc" src="javascript:;" width="85" height="25" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></li>
+    </ul>
+  </div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="header-wrapper">
+	<div class="container">
+		<div class="navigation-wrapper sliding-bar">
+			<div class="gdl-current-menu"></div>
+			<div class="main-superfish-wrapper" id="main-superfish-wrapper">
+				<ul class="sf-menu">
+				<li><div class="hp"><h1><a href="../index7.html"><img src="../images/home.png" alt=""></a></h1></div></li>
+				<li><a href="../news/1529483398678.html">厦门概况</a></li>
+				<li><a href="">旅游资讯</a></li>
+				<li><a href="product_search-websearch_filt_ne34.html">景区</a></li>
+				<li><a href="javascript:;">线路</a></li>
+				<li><a href="product_search-websearch_filt_ne36.html">美食</a></li>
+				<li><a href="product_search-websearch_filt_ne37.html">酒店</a></li>
+				<li><a href="product_search-websearch_filt_ne38.html">购物</a></li>
+				<li><a href="javascript:;">交通</a></li>
+				
+				<li><a href="../kinmen/index.html">发现金门</a></li>
+				</ul>
+			<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="main-wrapper">
+	<div class="main_news list-np">
+      <div class="main_newstit"><h2>旅游资讯</h2></div>
+      <ul>
+      
+      <li><a href="javascript:;" target="_blank"><div class="txt"><h3>长虹卧波、复道行空，厦门这几座大桥的美景你打卡了吗？</h3><span>2021-01-22</span></div></a></li>
+
+      <li><a href="javascript:;" target="_blank"><div class="txt"><h3>官方发布！福建春运、春节疫情防控安排来了</h3><span>2021-01-22</span></div></a></li>
+
+      <li><a href="javascript:;" target="_blank"><div class="txt"><h3>期待！海沧将新增首个智慧体育公园！</h3><span>2021-01-22</span></div></a></li>
+
+      <li><a href="javascript:;" target="_blank"><div class="txt"><h3>来琴岛品茶做灯笼</h3><span>2021-01-22</span></div></a></li>
+
+      <li><a href="javascript:;" target="_blank"><div class="txt"><h3>天暖花开 翔安妙高山樱花、香山油菜花绽放</h3><span>2021-01-22</span></div></a></li>
+
+      <li><a href="javascript:;" target="_blank"><div class="txt"><h3>来当小小科探员，听说太空狂人、最强海贼王，都在这里</h3><span>2021-01-21</span></div></a></li>
+
+      <li><a href="javascript:;" target="_blank"><div class="txt"><h3>请注意！返乡人员如何划定？国家卫健委最新回应</h3><span>2021-01-21</span></div></a></li>
+
+      <li><a href="javascript:;" target="_blank"><div class="txt"><h3>近千株樱花茶园绽放 位于翔安妙高山，花期预计持续到二月中旬</h3><span>2021-01-21</span></div></a></li>
+
+      <li><a href="javascript:;" target="_blank"><div class="txt"><h3>厦门今明两天天气晴好 最高气温将达到25℃</h3><span>2021-01-21</span></div></a></li>
+
+      <li><a href="javascript:;" target="_blank"><div class="txt"><h3>人民日报海外版头版报道了翔安的这个地方！</h3><span>2021-01-21</span></div></a></li>
+      
+    
+      </ul>
+       <div class="clear"></div>
+       
+     <div class="whj_jqueryPaginationCss-2" style="padding-top:20px;" align="center">
+     
+     	    
+	
+	<u><span class="TD04" style="display:none"><a href="#" onclick="selcetPage('http://xm.visitxm.com:80/','0')">上一页</a></span></u>
+	
+	&nbsp;&nbsp;&nbsp;&nbsp;<span class="SPE_HD04">当前第 <strong><a href="#"><font>1</font></a></strong> 页</span>	
+	<span class="SPE_HD04">&nbsp;&nbsp;共<strong>260</strong>页    <a onclick="goToPage(pagego.value)">GO</a></span> <input style="height:10px;width:21px;" type="text" value="" name="pagego" size="3"><input name="t_num" id="t_num" type="hidden" value="260">&nbsp;&nbsp;&nbsp;&nbsp;
+	
+	 <u><span class="TD04"><a href="#" onclick="selcetPage('http://xm.visitxm.com:80/','2')">下一页</a></span></u>
+	
+	
+     
+ 
+ 
+     </div>
+
+
+    </div>
+</div>
+
+﻿
+<!-- footer --> 
+<div class="footer-wrapper boxed-style">
+<!-- Get Footer Widget -->
+<div class="container footer-container">
+<div class="footer-widget-wrapper">
+<div class="row">
+<div class="four columns mb0" style="width:420px">
+<div class="custom-sidebar widget_text">			
+<div class="textwidget">
+<h1>厦门旅游网</h1>
+<span>厦门市文化和旅游局</span><br>
+<span>文旅宣传推广官方网站</span><br>
+<span>全国十佳旅游目的地网站</span>
+<div class="clear"></div>
+</div>
+</div></div>
+<div class="columns" style="width:400px;margin-left:40px"><div class="custom-sidebar"><h3 class="custom-sidebar-title">联系我们</h3><div class="gdl-recent-post-widget"><ul><li><img alt="" style="width: 20px; float: left; margin-right:10px " src="../images/ico_mail.png">330445074@qq.com</li>
+</ul>														</div></div></div>						
+<div class="clear"></div>
+</div>		
+<!-- Get Copyright Text -->
+<div class="copyright-wrapper">
+	<div class="copyright-border"></div>
+	<div class="copyright-left"><a href="javascript:;">闽ICP备06013218号-2,</a> Copyright © 2020 All Right Reserved, <a href="../index6.html">visitxm.com</a></div>
+</div>
+</div></div></div>
+<script src="../z_stat-1264401449_1264401449.js" language="JavaScript"></script>
+</body></html>
